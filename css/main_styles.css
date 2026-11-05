@@ -54,6 +54,14 @@
     background-color: #302038;
 }
 
+#teammateGrid .card-hush .art {
+    background-color: #35223b;
+}
+
+#teammateGrid .card-iso .art {
+    background-color: #24223b;
+}
+
 #homeFooter {
     margin-top: 30px;
 }

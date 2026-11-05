@@ -1,9 +1,25 @@
-/* Charles page 2 */
+/* Iso page colors and spacing */
 
 #charlesSlot2Layout {
-    width: 850px;
+    margin-top: 28px;
+    margin-bottom: 45px;
 }
 
-#charlesSlot2Profile {
-    min-height: 260px;
+#charlesSlot2Portrait,
+.card-iso {
+    background-color: #24223b;
+}
+
+#charlesSlot2Profile .label,
+#charlesSlot2Abilities .skill h3 {
+    color: #9f9bff;
+}
+
+#charlesSlot2Profile .role {
+    background-color: #5d58a7;
+}
+
+#charlesSlot2Abilities,
+#charlesSlot2Notes {
+    margin-top: 28px;
 }

@@ -1,9 +1,25 @@
-/* Charles page 1 */
+/* Hush page colors and spacing */
 
 #charlesSlot1Layout {
-    width: 850px;
+    margin-top: 28px;
+    margin-bottom: 45px;
 }
 
-#charlesSlot1Profile {
-    min-height: 260px;
+#charlesSlot1Portrait,
+.card-hush {
+    background-color: #35223b;
+}
+
+#charlesSlot1Profile .label,
+#charlesSlot1Abilities .skill h3 {
+    color: #f47ac7;
+}
+
+#charlesSlot1Profile .role {
+    background-color: #8d4c9e;
+}
+
+#charlesSlot1Abilities,
+#charlesSlot1Notes {
+    margin-top: 28px;
 }
