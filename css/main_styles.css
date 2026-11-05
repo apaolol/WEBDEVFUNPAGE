@@ -1,8 +1,9 @@
 /* Styles for the main page */
+
 #homeLayout {
     width: 1100px;
     max-width: 94%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 #homeHero {
@@ -10,26 +11,49 @@
     border-bottom: 2px solid #ece8e1;
 }
 
-#homeHero h1 { margin: 0 0 15px; }
-#homeHero p { max-width: 520px; line-height: 1.6; }
-#homeHero .eyebrow { color: #ff4655; }
-#pages { padding: 28px 0 0; }
-#kyleGroup, #otherGroup { margin-bottom: 34px; }
-#kyleGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-#teammateGrid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-#kyleGrid .agent-art { height: 260px; }
-#teammateGrid .agent-art { height: 150px; }
-#kyleGrid .card-breach .agent-art { background-color: #34201d; }
-#kyleGrid .card-reyna .agent-art { background-color: #302038; }
-#teammateGrid .card-placeholder .agent-art { background-color: #202b36; }
-#homeFooter { margin-top: 30px; }
-
-@media (max-width: 760px) {
-    #teammateGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+#homeHero h1 {
+    margin-bottom: 15px;
+    font-size: 52px;
 }
 
-@media (max-width: 520px) {
-    #homeHero { padding-top: 42px; }
-    #kyleGrid, #teammateGrid { grid-template-columns: 1fr; }
-    #kyleGrid .agent-art, #teammateGrid .agent-art { height: 220px; }
+#homeHero p {
+    max-width: 520px;
+    line-height: 1.6;
+}
+
+#pages {
+    padding-top: 28px;
+}
+
+#kyleGroup,
+#otherGroup {
+    margin-bottom: 34px;
+}
+
+#kyleGrid .card {
+    flex: 1 1 320px;
+}
+
+#teammateGrid .card {
+    flex: 1 1 240px;
+}
+
+#kyleGrid .art {
+    height: 220px;
+}
+
+#teammateGrid .art {
+    height: 180px;
+}
+
+#kyleGrid .card-breach .art {
+    background-color: #34201d;
+}
+
+#kyleGrid .card-reyna .art {
+    background-color: #302038;
+}
+
+#homeFooter {
+    margin-top: 30px;
 }

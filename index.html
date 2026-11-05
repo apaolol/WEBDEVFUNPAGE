@@ -10,42 +10,42 @@
   <link rel="stylesheet" href="css/main_styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="index.html"><img class="brand-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg" alt="VALORANT logo"> AGENT PICKS</a>
-    <span class="header-note">Squad page</span>
+  <header class="header">
+    <a class="brand" href="index.html"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg" alt="VALORANT logo"> AGENT PICKS</a>
+    <span class="small-note">Squad page</span>
   </header>
 
   <main class="home-main" id="homeLayout">
     <section class="hero" id="homeHero">
-      <p class="eyebrow">OUR GROUP</p>
+      <p class="label">OUR GROUP</p>
       <h1>Favorite<br><span>agents.</span></h1>
       <p class="hero-copy">A home for the Valorant agents our group likes to play.</p>
-      <a class="jump-link brut-btn brut-btn--primary" href="#pages">See the pages <span aria-hidden="true">↓</span></a>
+      <a class="button brut-btn brut-btn--primary" href="#pages">See the pages <span aria-hidden="true">↓</span></a>
     </section>
 
     <section class="page-section" id="pages">
       <div class="team-group" id="kyleGroup">
-        <div class="section-heading"><h2>Kyle</h2><p>His two favorite agents</p></div>
-        <div class="card-grid card-grid-kyle" id="kyleGrid">
-          <a class="page-card brut-card agent-card card-breach" href="pages/breach.html"><span class="agent-art"><img src="https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png" alt="Breach"></span><span class="card-copy"><span class="card-number">KYLE</span><h3>Breach</h3><p>Initiator</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
-          <a class="page-card brut-card agent-card card-reyna" href="pages/reyna.html"><span class="agent-art"><img src="https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png" alt="Reyna"></span><span class="card-copy"><span class="card-number">KYLE</span><h3>Reyna</h3><p>Duelist</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
+        <div class="heading"><h2>Kyle</h2><p>His two favorite agents</p></div>
+        <div class="row" id="kyleGrid">
+          <a class="card brut-card card-breach" href="pages/kyle_breach.html"><span class="art"><img src="https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png" alt="Breach"></span><span class="copy"><span class="tag">KYLE</span><h3>Breach</h3><p>Initiator</p><span class="arrow" aria-hidden="true">↗</span></span></a>
+          <a class="card brut-card card-reyna" href="pages/kyle_reyna.html"><span class="art"><img src="https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png" alt="Reyna"></span><span class="copy"><span class="tag">KYLE</span><h3>Reyna</h3><p>Duelist</p><span class="arrow" aria-hidden="true">↗</span></span></a>
         </div>
       </div>
       <div class="team-group" id="otherGroup">
-        <div class="section-heading"><h2>More agents</h2><p>Two spots for each teammate</p></div>
-        <div class="card-grid" id="teammateGrid">
-          <a class="page-card brut-card agent-card card-placeholder" href="pages/charles-slot-1.html"><span class="agent-art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="card-copy"><span class="card-number">CHARLES</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
-          <a class="page-card brut-card agent-card card-placeholder" href="pages/charles-slot-2.html"><span class="agent-art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="card-copy"><span class="card-number">CHARLES</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
-          <a class="page-card brut-card agent-card card-placeholder" href="pages/joshua-slot-1.html"><span class="agent-art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="card-copy"><span class="card-number">JOSHUA</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
-          <a class="page-card brut-card agent-card card-placeholder" href="pages/joshua-slot-2.html"><span class="agent-art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="card-copy"><span class="card-number">JOSHUA</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
-          <a class="page-card brut-card agent-card card-placeholder" href="pages/symond-slot-1.html"><span class="agent-art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="card-copy"><span class="card-number">SYMOND</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
-          <a class="page-card brut-card agent-card card-placeholder" href="pages/symond-slot-2.html"><span class="agent-art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="card-copy"><span class="card-number">SYMOND</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
+        <div class="heading"><h2>More agents</h2><p>Two spots for each teammate</p></div>
+        <div class="row" id="teammateGrid">
+          <a class="card brut-card" href="pages/charles-slot-1.html"><span class="art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="copy"><span class="tag">CHARLES</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="arrow" aria-hidden="true">↗</span></span></a>
+          <a class="card brut-card" href="pages/charles-slot-2.html"><span class="art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="copy"><span class="tag">CHARLES</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="arrow" aria-hidden="true">↗</span></span></a>
+          <a class="card brut-card" href="pages/joshua-slot-1.html"><span class="art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="copy"><span class="tag">JOSHUA</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="arrow" aria-hidden="true">↗</span></span></a>
+          <a class="card brut-card" href="pages/joshua-slot-2.html"><span class="art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="copy"><span class="tag">JOSHUA</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="arrow" aria-hidden="true">↗</span></span></a>
+          <a class="card brut-card" href="pages/symond-slot-1.html"><span class="art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="copy"><span class="tag">SYMOND</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="arrow" aria-hidden="true">↗</span></span></a>
+          <a class="card brut-card" href="pages/symond-slot-2.html"><span class="art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="copy"><span class="tag">SYMOND</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="arrow" aria-hidden="true">↗</span></span></a>
         </div>
       </div>
     </section>
     <p class="home-footnote">Choose a card to open its page.</p>
   </main>
-  <footer class="site-footer" id="homeFooter"><a href="index.html">VALORANT AGENTS</a><span>Made by the squad</span></footer>
+  <footer class="footer" id="homeFooter"><a href="index.html">VALORANT AGENTS</a><span>Made by the squad</span></footer>
 </body>
 </html>
 

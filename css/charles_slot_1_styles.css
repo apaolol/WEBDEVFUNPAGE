@@ -1,4 +1,9 @@
-/* Styles for Charles's first agent slot */
-#charlesSlot1Layout { width: 850px; max-width: 94%; margin: 28px auto 45px; }
-#charlesSlot1Profile { min-height: 260px; background-color: #1a2631; }
-#charlesSlot1Note { margin-top: 20px; }
+/* Charles page 1 */
+
+#charlesSlot1Layout {
+    width: 850px;
+}
+
+#charlesSlot1Profile {
+    min-height: 260px;
+}

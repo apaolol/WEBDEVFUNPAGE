@@ -1,4 +1,9 @@
-/* Styles for Symond's second agent slot */
-#symondSlot2Layout { width: 850px; max-width: 94%; margin: 28px auto 45px; }
-#symondSlot2Profile { min-height: 260px; background-color: #1a2631; }
-#symondSlot2Note { margin-top: 20px; }
+/* Symond page 2 */
+
+#symondSlot2Layout {
+    width: 850px;
+}
+
+#symondSlot2Profile {
+    min-height: 260px;
+}

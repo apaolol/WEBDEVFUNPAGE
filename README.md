@@ -18,8 +18,8 @@ WEBDEVFUNPAGE/
 │   ├── symond_slot_1_styles.css
 │   └── symond_slot_2_styles.css
 └── pages/
-    ├── breach.html
-    ├── reyna.html
+    ├── kyle_breach.html
+    ├── kyle_reyna.html
     ├── charles-slot-1.html
     ├── charles-slot-2.html
     ├── joshua-slot-1.html
@@ -27,3 +27,4 @@ WEBDEVFUNPAGE/
     ├── symond-slot-1.html
     └── symond-slot-2.html
 ```
+
