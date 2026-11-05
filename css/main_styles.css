@@ -54,6 +54,14 @@
     background-color: #302038;
 }
 
+#teammateGrid .card-cypher .art {
+    background-color: #16302b;
+}
+
+#teammateGrid .card-hush .art {
+    background-color: #2b2350;
+}
+
 #homeFooter {
     margin-top: 30px;
 }
