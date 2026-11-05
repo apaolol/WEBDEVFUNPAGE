@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" role="img" aria-labelledby="title desc">
+  <title id="title">Agent slot placeholder</title>
+  <desc id="desc">A simple silhouette marking an agent slot to be filled in.</desc>
+  <rect width="320" height="360" fill="#262729"/>
+  <path d="M0 44h320M0 316h320" stroke="#ff4655" stroke-width="3"/>
+  <circle cx="160" cy="128" r="57" fill="#55585a" stroke="#eee9e0" stroke-width="5"/>
+  <path d="M50 313c7-72 51-112 110-112s103 40 110 112" fill="#55585a" stroke="#eee9e0" stroke-width="5"/>
+  <path d="M160 88v80m-40-40h80" stroke="#171819" stroke-width="8"/>
+  <text x="160" y="347" fill="#eee9e0" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3" text-anchor="middle">AGENT TBD</text>
+</svg>

@@ -1,0 +1,11 @@
+/* Styles for Reyna's agent page */
+#reynaLayout { width: 900px; max-width: 94%; margin: 28px auto 45px; }
+#reynaProfile { background-color: #1a2631; }
+#reynaPortrait { background-color: #302038; }
+#reynaAbilities { margin-top: 28px; }
+#reynaNotes { margin-top: 20px; }
+
+@media (max-width: 650px) {
+    #reynaLayout { max-width: 92%; }
+    #reynaPortrait { height: 300px; }
+}

@@ -1,0 +1,11 @@
+/* Styles for Breach's agent page */
+#breachLayout { width: 900px; max-width: 94%; margin: 28px auto 45px; }
+#breachProfile { background-color: #1a2631; }
+#breachPortrait { background-color: #34201d; }
+#breachAbilities { margin-top: 28px; }
+#breachNotes { margin-top: 20px; }
+
+@media (max-width: 650px) {
+    #breachLayout { max-width: 92%; }
+    #breachPortrait { height: 300px; }
+}

@@ -1,0 +1,4 @@
+/* Styles for Charles's second agent slot */
+#charlesSlot2Layout { width: 850px; max-width: 94%; margin: 28px auto 45px; }
+#charlesSlot2Profile { min-height: 260px; background-color: #1a2631; }
+#charlesSlot2Note { margin-top: 20px; }

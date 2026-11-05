@@ -1,32 +1,29 @@
-# Main Page starter
+# Valorant Agent Picks
 
-A small static website with a main page and eight generic, connected pages. Each page has a separate stylesheet. There is no build step or framework.
-
-## Folder map
+Open `index.html` in a browser. Shared site styles live in `css/universalStyles.css`; each page has a small matching stylesheet. The landing page also uses the BRUT component stylesheet.
 
 ```text
 WEBDEVFUNPAGE/
-├── index.html              Main Page
+├── index.html
+├── assets/images/agent-placeholder.svg
 ├── css/
+│   ├── universalStyles.css
 │   ├── main_styles.css
-│   ├── page1_styles.css
-│   ├── page2_styles.css
-│   ├── page3_styles.css
-│   ├── page4_styles.css
-│   ├── page5_styles.css
-│   ├── page6_styles.css
-│   ├── page7_styles.css
-│   └── page8_styles.css
+│   ├── breach_styles.css
+│   ├── reyna_styles.css
+│   ├── charles_slot_1_styles.css
+│   ├── charles_slot_2_styles.css
+│   ├── joshua_slot_1_styles.css
+│   ├── joshua_slot_2_styles.css
+│   ├── symond_slot_1_styles.css
+│   └── symond_slot_2_styles.css
 └── pages/
-    ├── page1.html
-    ├── page2.html
-    ├── page3.html
-    ├── page4.html
-    ├── page5.html
-    ├── page6.html
-    ├── page7.html
-    └── page8.html
+    ├── breach.html
+    ├── reyna.html
+    ├── charles-slot-1.html
+    ├── charles-slot-2.html
+    ├── joshua-slot-1.html
+    ├── joshua-slot-2.html
+    ├── symond-slot-1.html
+    └── symond-slot-2.html
 ```
-
-Open `index.html` in a browser. All eight cards open a page. Each page also links back to the main page and to the other seven pages. Edit the HTML and its matching stylesheet as needed.
-

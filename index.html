@@ -3,45 +3,50 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A simple main page linking to eight connected placeholder pages.">
-  <title>Main Page</title>
+  <meta name="description" content="A simple Valorant agent page for Kyle, Charles, Joshua, and Symond.">
+  <title>Valorant Agents</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sprtn/ui@1.3.2/dist/brut.css" integrity="sha384-2Tt/ow6z+oJUBgh2QNLG3VI5irFWhhskFeaqtEvoMfFxrNtIHQ2rhq9OHYkD+8v2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/universalStyles.css">
   <link rel="stylesheet" href="css/main_styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html"><span class="brand-mark">✦</span> Main Page</a>
-    <span class="header-note">a little site with room to grow</span>
+    <a class="brand" href="index.html"><img class="brand-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg" alt="VALORANT logo"> AGENT PICKS</a>
+    <span class="header-note">Squad page</span>
   </header>
 
-  <main class="home-main">
-    <section class="hero">
-      <p class="eyebrow">YOUR STARTER SITE</p>
-      <h1>Pick a box.<br><span>Go somewhere fun.</span></h1>
-      <p class="hero-copy">Eight little pages, all connected and ready for whatever topic you choose next.</p>
-      <a class="jump-link" href="#pages">Explore the pages <span aria-hidden="true">↓</span></a>
-      <span class="hero-spark spark-one" aria-hidden="true">✳</span>
-      <span class="hero-spark spark-two" aria-hidden="true">✦</span>
+  <main class="home-main" id="homeLayout">
+    <section class="hero" id="homeHero">
+      <p class="eyebrow">OUR GROUP</p>
+      <h1>Favorite<br><span>agents.</span></h1>
+      <p class="hero-copy">A home for the Valorant agents our group likes to play.</p>
+      <a class="jump-link brut-btn brut-btn--primary" href="#pages">See the pages <span aria-hidden="true">↓</span></a>
     </section>
 
     <section class="page-section" id="pages">
-      <div class="section-heading">
-        <div><p class="eyebrow">THE SITE MAP</p><h2>Choose your next stop</h2></div>
-        <p>Every card opens its own page.<br>Use the menu there to hop around.</p>
+      <div class="team-group" id="kyleGroup">
+        <div class="section-heading"><h2>Kyle</h2><p>His two favorite agents</p></div>
+        <div class="card-grid card-grid-kyle" id="kyleGrid">
+          <a class="page-card brut-card agent-card card-breach" href="pages/breach.html"><span class="agent-art"><img src="https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/fullportrait.png" alt="Breach"></span><span class="card-copy"><span class="card-number">KYLE</span><h3>Breach</h3><p>Initiator</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
+          <a class="page-card brut-card agent-card card-reyna" href="pages/reyna.html"><span class="agent-art"><img src="https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/fullportrait.png" alt="Reyna"></span><span class="card-copy"><span class="card-number">KYLE</span><h3>Reyna</h3><p>Duelist</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
+        </div>
       </div>
-      <div class="card-grid">
-        <a class="page-card card-lilac" href="pages/page1.html"><span class="card-number">01</span><span class="card-icon">💡</span><h3>Page 1</h3><p>A basic placeholder page, ready for your ideas.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
-        <a class="page-card card-peach" href="pages/page2.html"><span class="card-number">02</span><span class="card-icon">🎨</span><h3>Page 2</h3><p>A basic placeholder page, ready for your ideas.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
-        <a class="page-card card-mint" href="pages/page3.html"><span class="card-number">03</span><span class="card-icon">🎲</span><h3>Page 3</h3><p>A basic placeholder page, ready for your ideas.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
-        <a class="page-card card-sky" href="pages/page4.html"><span class="card-number">04</span><span class="card-icon">🖼️</span><h3>Page 4</h3><p>A basic placeholder page, ready for your ideas.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
-        <a class="page-card card-yellow" href="pages/page5.html"><span class="card-number">05</span><span class="card-icon">✨</span><h3>Page 5</h3><p>A basic placeholder page, ready for your ideas.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
-        <a class="page-card card-rose" href="pages/page6.html"><span class="card-number">06</span><span class="card-icon">🎧</span><h3>Page 6</h3><p>A basic placeholder page, ready for your ideas.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
-        <a class="page-card card-blue" href="pages/page7.html"><span class="card-number">07</span><span class="card-icon">⏳</span><h3>Page 7</h3><p>A basic placeholder page, ready for your ideas.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
-        <a class="page-card card-lime" href="pages/page8.html"><span class="card-number">08</span><span class="card-icon">💌</span><h3>Page 8</h3><p>A basic placeholder page, ready for your ideas.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+      <div class="team-group" id="otherGroup">
+        <div class="section-heading"><h2>More agents</h2><p>Two spots for each teammate</p></div>
+        <div class="card-grid" id="teammateGrid">
+          <a class="page-card brut-card agent-card card-placeholder" href="pages/charles-slot-1.html"><span class="agent-art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="card-copy"><span class="card-number">CHARLES</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
+          <a class="page-card brut-card agent-card card-placeholder" href="pages/charles-slot-2.html"><span class="agent-art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="card-copy"><span class="card-number">CHARLES</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
+          <a class="page-card brut-card agent-card card-placeholder" href="pages/joshua-slot-1.html"><span class="agent-art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="card-copy"><span class="card-number">JOSHUA</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
+          <a class="page-card brut-card agent-card card-placeholder" href="pages/joshua-slot-2.html"><span class="agent-art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="card-copy"><span class="card-number">JOSHUA</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
+          <a class="page-card brut-card agent-card card-placeholder" href="pages/symond-slot-1.html"><span class="agent-art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="card-copy"><span class="card-number">SYMOND</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
+          <a class="page-card brut-card agent-card card-placeholder" href="pages/symond-slot-2.html"><span class="agent-art"><img src="assets/images/agent-placeholder.svg" alt="Unassigned agent placeholder"></span><span class="card-copy"><span class="card-number">SYMOND</span><h3>Open slot</h3><p>Agent to be chosen</p><span class="card-arrow" aria-hidden="true">↗</span></span></a>
+        </div>
       </div>
     </section>
-    <p class="home-footnote">This is your blank canvas. Change the names, words, and colors whenever inspiration strikes.</p>
+    <p class="home-footnote">Choose a card to open its page.</p>
   </main>
-  <footer class="site-footer"><a href="index.html">Main Page</a><span>Made for whatever comes next ✦</span></footer>
+  <footer class="site-footer" id="homeFooter"><a href="index.html">VALORANT AGENTS</a><span>Made by the squad</span></footer>
 </body>
 </html>
+
 
