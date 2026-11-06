@@ -33,8 +33,7 @@
     padding-top: 28px;
 }
 
-#kyleGroup,
-#otherGroup {
+.team-group {
     margin-bottom: 34px;
 }
 
@@ -42,16 +41,20 @@
     flex: 1 1 320px;
 }
 
-#teammateGrid .card {
-    flex: 1 1 240px;
+#joshuaGroup .card,
+#charlesGroup .card,
+#symondGroup .card {
+    flex: 1 1 45%;
 }
 
 #kyleGrid .art {
     height: 220px;
 }
 
-#teammateGrid .art {
-    height: 180px;
+#joshuaGroup .art,
+#charlesGroup .art,
+#symondGroup .art {
+    height: 220px;
 }
 
 #kyleGrid .card-breach .art {
@@ -62,27 +65,29 @@
     background-color: #302038;
 }
 
-#teammateGrid .card-waylay .art {
+#charlesGroup .card-waylay .art {
     background-color: #482e61;
 }
 
-#teammateGrid .card-waylay {
+#charlesGroup .card-waylay {
     box-shadow: 5px 5px #73519a;
 }
 
-#teammateGrid .card-waylay .tag,
-#teammateGrid .card-waylay .arrow,
-#teammateGrid .card-waylay h3 {
+#charlesGroup .card-waylay .tag,
+#charlesGroup .card-waylay .arrow,
+#charlesGroup .card-waylay h3 {
     color: #d8c4f2;
 }
 
-#teammateGrid .card-iso .art {
+#charlesGroup .card-iso .art {
     background-color: #24223b;
-#teammateGrid .card-cypher .art {
+}
+
+#joshuaGroup .card-cypher .art {
     background-color: #16302b;
 }
 
-#teammateGrid .card-hush .art {
+#joshuaGroup .card-hush .art {
     background-color: #2b2350;
 }
 
