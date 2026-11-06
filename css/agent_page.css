@@ -1,0 +1,37 @@
+/* Styles shared by all agent pages */
+
+.agent-note {
+    margin-top: 28px;
+}
+
+.breach .portrait {
+    background-color: #34201d;
+}
+
+.reyna .portrait {
+    background-color: #302038;
+}
+
+.waylay .portrait {
+    background-color: #482e61;
+}
+
+.iso .portrait {
+    background-color: #24223b;
+}
+
+.cypher .portrait {
+    background-color: #16302b;
+}
+
+.hush .portrait {
+    background-color: #2b2350;
+}
+
+.gekko .portrait {
+    background-color: #10251e;
+}
+
+.sage .portrait {
+    background-color: #102f32;
+}

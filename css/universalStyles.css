@@ -152,14 +152,24 @@ h1 span,
     gap: 8px;
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ece8e1;
+    background-color: #1a2631;
+    box-shadow: 5px 5px #ff4655;
+    padding: 30px;
+}
+
+.box .button {
+    align-self: flex-start;
+}
+
 .card {
     display: flex;
     flex-direction: column;
     min-height: 270px;
     padding: 12px;
-    border: 2px solid #ece8e1;
-    background-color: #1a2631;
-    box-shadow: 5px 5px #ff4655;
     color: #ece8e1;
     text-decoration: none;
 }
@@ -228,18 +238,6 @@ h1 span,
     font-weight: bold;
 }
 
-.box,
-.skill,
-.note {
-    border: 2px solid #ece8e1;
-    background-color: #1a2631;
-    box-shadow: 5px 5px #ff4655;
-}
-
-.box {
-    padding: 30px;
-}
-
 .profile .row {
     gap: 28px;
 }
@@ -305,6 +303,7 @@ h1 span,
 
 .skill {
     display: flex;
+    flex-direction: row;
     flex: 1 1 40%;
     align-items: flex-start;
     gap: 12px;
