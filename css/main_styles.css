@@ -62,6 +62,22 @@
     background-color: #302038;
 }
 
+#teammateGrid .card-waylay .art {
+    background-color: #482e61;
+}
+
+#teammateGrid .card-waylay {
+    box-shadow: 5px 5px #73519a;
+}
+
+#teammateGrid .card-waylay .tag,
+#teammateGrid .card-waylay .arrow,
+#teammateGrid .card-waylay h3 {
+    color: #d8c4f2;
+}
+
+#teammateGrid .card-iso .art {
+    background-color: #24223b;
 #teammateGrid .card-cypher .art {
     background-color: #16302b;
 }
