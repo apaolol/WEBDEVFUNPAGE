@@ -1,7 +1,9 @@
-/* Styles for Gekko's agent page */
+
 #gekkoLayout { width: 900px; max-width: 94%; margin: 28px auto 45px; }
-#gekkoProfile { background-color: #174D3B; }
-#gekkoPortrait { background-color: #10251E; }
+#gekkoPortrait { 
+    background-color: #10251E; 
+}
+
 #gekkoAbilities { margin-top: 28px; }
 #gekkoNotes { margin-top: 20px; }
 
@@ -9,6 +11,3 @@
     #gekkoLayout { max-width: 92%; }
     #gekkoPortrait { height: 300px; }
 }
-
-
-

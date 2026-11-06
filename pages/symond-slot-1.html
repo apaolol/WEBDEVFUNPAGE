@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,108 +11,116 @@
 </head>
 
 <body>
-  <header class="site-header">
+  <header class="header">
     <a class="brand" href="../index.html">
-      <img class="brand-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg" alt="VALORANT logo">
+      <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg" alt="VALORANT logo">
       VALORANT AGENTS
     </a>
-    <span class="header-note">Squad page</span>
+    <span class="small-note">Squad page</span>
   </header>
 
-  <main class="page-main" id="gekkoLayout">
-    <a class="back-home" href="../index.html">← Back to Main Page</a>
+  <main class="main" id="gekkoLayout">
+    <a class="back" href="../index.html">← Back to Main Page</a>
 
-    <section class="detail-hero card-gekko agent-profile" id="gekkoProfile">
-      <div class="agent-profile-layout">
+    <section class="box card-gekko profile" id="gekkoProfile">
+      <div class="row">
 
-        <div class="profile-art" id="gekkoPortrait">
-          <img src="https://media.valorant-api.com/agents/0fdb2d5a-4dcb-5b8b-a04d-6b4a8c1c9a00/fullportrait.png" alt="Gekko agent portrait">
+        <div class="portrait" id="gekkoPortrait">
+          <img src="https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png" alt="Gekko agent portrait">
         </div>
 
-        <div class="profile-copy">
-          <p class="eyebrow">SYMOND'S AGENT</p>
+        <div class="col">
+          <p class="label">SYMOND'S AGENT</p>
           <h1>Gekko</h1>
-          <span class="profile-role">Initiator</span>
+          <span class="role">Initiator</span>
 
-          <p class="profile-summary">
-            A Los Angeles-born Initiator who leads a close-knit crew of creatures.
-            His buddies help clear areas, blind enemies, detain opponents, and plant
-            or defuse the Spike, making him a versatile team player.
+          <p class="summary">
+            An Initiator from Los Angeles, USA, who leads a close-knit crew
+            of creatures called buddies. His companions help gather information,
+            disrupt enemies, and create opportunities for his team.
           </p>
 
-          <dl class="agent-facts">
-            <div>
-              <dt>Player</dt>
-              <dd>Symond</dd>
-            </div>
-            <div>
-              <dt>Role</dt>
-              <dd>Initiator</dd>
-            </div>
-            <div>
-              <dt>Country</dt>
-              <dd>United States</dd>
-            </div>
+          <dl class="facts">
+            <div><dt>Player</dt><dd>Symond</dd></div>
+            <div><dt>Role</dt><dd>Initiator</dd></div>
+            <div><dt>Country</dt><dd>United States</dd></div>
           </dl>
         </div>
 
       </div>
     </section>
 
-    <section class="abilities-section" id="gekkoAbilities">
+    <section class="section" id="gekkoAbilities">
       <h2>Gekko's abilities</h2>
 
-      <div class="ability-list">
+      <div class="row skills">
 
-        <article class="ability-card">
-          <h3>Mosh Pit</h3>
-          <p>
-            Throw Mosh, who duplicates upon landing and spreads across a large
-            area before exploding, damaging enemies caught inside.
-          </p>
+        <article class="skill">
+          <img class="icon" src="https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png" alt="Mosh Pit icon">
+          <div class="col">
+            <p class="type">Basic</p>
+            <h3>Mosh Pit</h3>
+            <p>
+              Throw Mosh, who spreads across an area and explodes,
+              damaging enemies caught inside.
+            </p>
+          </div>
         </article>
 
-        <article class="ability-card">
-          <h3>Wingman</h3>
-          <p>
-            Send Wingman forward to concuss enemies. He can also plant or
-            defuse the Spike when Gekko has it in his possession.
-          </p>
+        <article class="skill">
+          <img class="icon" src="https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png" alt="Wingman icon">
+          <div class="col">
+            <p class="type">Basic</p>
+            <h3>Wingman</h3>
+            <p>
+              Send Wingman forward to concuss enemies. He can also
+              plant or defuse the Spike when Gekko has it.
+            </p>
+          </div>
         </article>
 
-        <article class="ability-card">
-          <h3>Dizzy</h3>
-          <p>
-            Launch Dizzy into the air. She fires plasma blasts at enemies in
-            her line of sight, blinding them temporarily.
-          </p>
+        <article class="skill">
+          <img class="icon" src="https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png" alt="Dizzy icon">
+          <div class="col">
+            <p class="type">Signature</p>
+            <h3>Dizzy</h3>
+            <p>
+              Launch Dizzy into the air. She fires plasma blasts at
+              enemies in her line of sight, blinding them temporarily.
+            </p>
+          </div>
         </article>
 
-        <article class="ability-card">
-          <h3>Thrash</h3>
-          <p>
-            Take control of Thrash and guide her toward enemies. Detonate
-            to leap forward and detain opponents caught in the explosion.
-          </p>
+        <article class="skill">
+          <img class="icon" src="https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png" alt="Thrash icon">
+          <div class="col">
+            <p class="type">Ultimate</p>
+            <h3>Thrash</h3>
+            <p>
+              Take control of Thrash and guide her toward enemies.
+              Detonate to leap forward and detain opponents caught inside.
+            </p>
+          </div>
         </article>
 
       </div>
     </section>
 
-    <section class="starter-note" id="gekkoNotes">
-      <h2>Symond's notes</h2>
+    <section class="note" id="gekkoNotes">
+      <h2>Using Gekko's Buddies</h2>
       <p>
-        Add favorite maps, Wingman planting strategies, Dizzy lineups,
-        and personal Gekko gameplay tips here.
+        Use Dizzy to blind enemies before entering a site, Wingman to help
+        plant or defuse the Spike, and Thrash to detain opponents.
+        Recover your buddies whenever possible to use them again.
       </p>
     </section>
 
-    <section class="page-nav-wrap">
+    <section class="nav-box">
       <h2>Hop to another page</h2>
 
-      <nav class="page-nav" aria-label="Site pages">
-        <a href="breach.html">Breach</a>
-        <a href="reyna.html">Reyna</a>
+      <nav class="nav" aria-label="Site pages">
+        <a href="kyle_breach.html">Breach</a>
+        <a href="kyle_reyna.html">Reyna</a>
         <a href="charles-slot-1.html">Charles 1</a>
         <a href="charles-slot-2.html">Charles 2</a>
         <a href="joshua-slot-1.html">Joshua 1</a>
@@ -123,11 +132,10 @@
 
   </main>
 
-  <footer class="site-footer">
+  <footer class="footer">
     <a href="../index.html">VALORANT AGENTS</a>
     <span>Made by the squad</span>
   </footer>
 
 </body>
 </html>
-```

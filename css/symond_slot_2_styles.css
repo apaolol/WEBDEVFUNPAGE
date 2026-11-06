@@ -1,9 +1,10 @@
-/* Symond page 2 */
+/* Styles for Sage's agent page */
+#sageLayout { width: 900px; max-width: 94%; margin: 28px auto 45px; }
+#sagePortrait { background-color: #102F32; }
+#sageAbilities { margin-top: 28px; }
+#sageNotes { margin-top: 20px; }
 
-#symondSlot2Layout {
-    width: 850px;
-}
-
-#symondSlot2Profile {
-    min-height: 260px;
+@media (max-width: 650px) {
+    #sageLayout { max-width: 92%; }
+    #sagePortrait { height: 300px; }
 }
