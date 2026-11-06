@@ -1,13 +1,19 @@
+/* Gekko page colors and spacing */
 
-#gekkoLayout { width: 900px; max-width: 94%; margin: 28px auto 45px; }
-#gekkoPortrait { 
-    background-color: #10251E; 
+#gekkoLayout {
+    width: 900px;
+    max-width: 94%;
+    margin: 28px auto 45px;
 }
 
-#gekkoAbilities { margin-top: 28px; }
-#gekkoNotes { margin-top: 20px; }
+#gekkoPortrait {
+    background-color: #10251e;
+}
 
-@media (max-width: 650px) {
-    #gekkoLayout { max-width: 92%; }
-    #gekkoPortrait { height: 300px; }
+#gekkoAbilities {
+    margin-top: 28px;
+}
+
+#gekkoNotes {
+    margin-top: 28px;
 }

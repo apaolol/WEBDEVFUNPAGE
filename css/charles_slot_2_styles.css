@@ -1,22 +1,12 @@
-/* Iso page colors and spacing */
+/* Iso page color and spacing */
 
 #charlesSlot2Layout {
     margin-top: 28px;
     margin-bottom: 45px;
 }
 
-#charlesSlot2Portrait,
-.card-iso {
+#charlesSlot2Portrait {
     background-color: #24223b;
-}
-
-#charlesSlot2Profile .label,
-#charlesSlot2Abilities .skill h3 {
-    color: #9f9bff;
-}
-
-#charlesSlot2Profile .role {
-    background-color: #5d58a7;
 }
 
 #charlesSlot2Abilities,

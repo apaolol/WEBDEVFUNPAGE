@@ -69,16 +69,6 @@
     background-color: #482e61;
 }
 
-#charlesGroup .card-waylay {
-    box-shadow: 5px 5px #73519a;
-}
-
-#charlesGroup .card-waylay .tag,
-#charlesGroup .card-waylay .arrow,
-#charlesGroup .card-waylay h3 {
-    color: #d8c4f2;
-}
-
 #charlesGroup .card-iso .art {
     background-color: #24223b;
 }
@@ -89,6 +79,14 @@
 
 #joshuaGroup .card-hush .art {
     background-color: #2b2350;
+}
+
+#symondGroup .card-gekko .art {
+    background-color: #10251e;
+}
+
+#symondGroup .card-sage .art {
+    background-color: #102f32;
 }
 
 #homeFooter {
