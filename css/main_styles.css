@@ -6,6 +6,14 @@
     margin: auto;
 }
 
+#homeHeader .brand {
+    font-size: 16px;
+}
+
+#homeHeader .logo {
+    width: 64px;
+}
+
 #homeHero {
     padding: 65px 0 40px;
     border-bottom: 2px solid #ece8e1;
@@ -25,8 +33,7 @@
     padding-top: 28px;
 }
 
-#kyleGroup,
-#otherGroup {
+.team-group {
     margin-bottom: 34px;
 }
 
@@ -34,16 +41,20 @@
     flex: 1 1 320px;
 }
 
-#teammateGrid .card {
-    flex: 1 1 240px;
+#joshuaGroup .card,
+#charlesGroup .card,
+#symondGroup .card {
+    flex: 1 1 45%;
 }
 
 #kyleGrid .art {
     height: 220px;
 }
 
-#teammateGrid .art {
-    height: 180px;
+#joshuaGroup .art,
+#charlesGroup .art,
+#symondGroup .art {
+    height: 220px;
 }
 
 #kyleGrid .card-breach .art {
@@ -52,6 +63,32 @@
 
 #kyleGrid .card-reyna .art {
     background-color: #302038;
+}
+
+#charlesGroup .card-waylay .art {
+    background-color: #482e61;
+}
+
+#charlesGroup .card-waylay {
+    box-shadow: 5px 5px #73519a;
+}
+
+#charlesGroup .card-waylay .tag,
+#charlesGroup .card-waylay .arrow,
+#charlesGroup .card-waylay h3 {
+    color: #d8c4f2;
+}
+
+#charlesGroup .card-iso .art {
+    background-color: #24223b;
+}
+
+#joshuaGroup .card-cypher .art {
+    background-color: #16302b;
+}
+
+#joshuaGroup .card-hush .art {
+    background-color: #2b2350;
 }
 
 #homeFooter {

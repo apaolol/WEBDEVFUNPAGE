@@ -7,3 +7,24 @@
 #joshuaSlot1Profile {
     min-height: 260px;
 }
+
+#joshuaSlot1Portrait {
+    background-color: #16302b;
+}
+
+.video-frame {
+    position: relative;
+    padding-top: 56.25%;
+    border: 2px solid #ece8e1;
+    background-color: #000000;
+    box-shadow: 5px 5px #ff4655;
+}
+
+.video-frame iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

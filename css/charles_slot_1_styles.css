@@ -1,9 +1,46 @@
-/* Charles page 1 */
+/* Waylay page colors and spacing */
 
 #charlesSlot1Layout {
-    width: 850px;
+    margin-top: 28px;
+    margin-bottom: 45px;
 }
 
-#charlesSlot1Profile {
-    min-height: 260px;
+#charlesSlot1Portrait,
+.card-waylay {
+    background-color: #482e61;
+}
+
+#charlesSlot1Profile .label,
+#charlesSlot1Abilities .skill h3 {
+    color: #d8c4f2;
+}
+
+#charlesSlot1Profile .role {
+    background-color: #73519a;
+    color: #fff;
+}
+
+#charlesSlot1Profile,
+#charlesSlot1Abilities .skill,
+#charlesSlot1Notes {
+    box-shadow: 5px 5px #73519a;
+}
+
+#charlesSlot1Abilities .icon {
+    border-color: #a68bc4;
+    background-color: #261a34;
+}
+
+#charlesSlot1Abilities .type {
+    color: #c3a8e3;
+}
+
+#charlesSlot1Layout .nav a[aria-current="page"] {
+    background-color: #73519a;
+    color: #fff;
+}
+
+#charlesSlot1Abilities,
+#charlesSlot1Notes {
+    margin-top: 28px;
 }
